@@ -1,0 +1,44 @@
+/* Верхня лінія */
+.logo{display: inline-block;}
+.link li{display: inline-block;}
+.link{color: #1C1C1C; text-decoration: none;}
+
+.but{font-family: Roboto; background-color: #6F2CFF;color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px; cursor: pointer;
+    /* background-color: #6F2CFF;border: none;text-align: right; */
+    }
+.but:hover{background-color: #FFFFFF;color: #6F2CFF;}
+
+
+.box-1{background: #F6BED9;Width: 1440px; Height: 687px;Top: 68px;}
+.hero{display: inline-block;}
+.card{display: inline-block;}
+.name{Font:Roboto;Weight: 700px;size: 54px;}  
+.color{color: #6F2DFF;}
+
+
+.box-2{
+    }
+    .centr{text-align: center;}
+    .competitors li{display: inline-block;}
+    .title{Font:Roboto;  Size: 40px; line-height: 45px;}
+    .col{color: #6F2DFF;}
+
+.box-3{height: 349px;
+    left: 7.36%;
+    right: 5.83%;
+    top: 1465px;width: 1250px;}
+.CommerceAI li{display:inline-block; list-style-type: disc;text-align: justify;}
+.qualitis{text-align: center;}
+
+.footer-box{background: #20003C;height: 156px;
+    left: 0%;
+    right: 0%;
+    top: 1953px;Width: 1440px}
+.ind li{display: inline-block;}
+.link1{color:#FFFFFF;height: 21px;
+    left: 7.36%;
+    right: 50%;
+    top: 2020px;Width:  614px; text-decoration: none;}
