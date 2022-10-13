@@ -1,48 +1,75 @@
 
 body{font-family: 'Roboto', sans-serif;}
-
+.conteyner{max-width: 1440px; margin: 0 auto;}
 
 /* Верхня лінія */
-.logo{display: inline-block;}
-.link li{display: inline-block;}
-.link{color: #1C1C1C; text-decoration: none;}
 
-.but{font-family: Roboto; background-color: #6F2CFF;color: #FFFFFF;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 14px; cursor: pointer;
-    /* background-color: #6F2CFF;border: none;text-align: right; */
+.box0{margin-left:20x;margin-left:  15px;}
+
+.link{font-size: 14px;line-height: 14px; color: #1C1C1C; text-decoration: none;}
+
+.but{background-color: #6F2CFF;color: #FFFFFF;    
+    height: 40px;border-radius: 20px; width: 157px;border: none;
+    line-height: 14px; font-size:  14px; cursor: pointer;
     }
-.but:hover{background-color: #FFFFFF;color: #6F2CFF;}
+.but:hover{background-color: #FFFFFF;color: #6F2CFF;transition: 2s;}
 
 
-.box-1{background: #F6BED9;Width: 1440px; Height: 687px;Top: 68px;}
+
+
+/* conteiner1 */
+.main{background: #F6BED9;padding:58px 0 59px ;Width: 1440px;
+    Height: 587px;Top: 68px;}
+.box-1{padding: 95px 171px;width:472px}
 .hero{display: inline-block;}
-.card{display: inline-block;}
-.name{Font:Roboto;Weight: 700px;size: 54px;}  
-.color{color: #6F2DFF;}
+.card{max-width: 436px; padding-left: 909px ;padding-top: 0 px;}
+.name{font-weight: bold;font-size: 54px;line-height: 61px; max-width: 470px;}  
+.color{color: #6F2DFF;font-weight:bold;font-size: 54px;line-height: 61px;}
+.but_main{background-color: #6F2CFF;color: #FFFFFF;    
+    width: 187;border:none;border-radius:20px; width: 187px;margin-left: 9px;
+    line-height: 45px; font-size:  14px; cursor: pointer;}
+.main_text{font-size: 18px;line-height: 30px;max-width: 438px;margin: 18px 0;}
+.text_main-bold{font-weight: bold;}
+.input{Width:268px; Height:45px; border: 1px solid #6F2CFF;border-radius: 28px;
+padding-left: 26px;}
+.input::placeholder{font-size: 15px; line-height: 21px;color: rgba(0, 0, 0, 0.27);}
+.input:focus{outline: none;}
 
+/* conteiner2 */
+.box-2{max-width: 1250px;margin-top: 136px;padding-left: 95px;}  
+    
+.competitors li{display: inline-block;margin-top: 0;}
+.title{ font-size: 40px; line-height: 45px; font-weight: 700;width: 415px;}
+.title1{line-height:22 ;font-weight:26;}
+.src{width: 415px;}
+.col{color: #6F2DFF;width: 300px;text-align: center;}
+/* .height{height: 438px;} */
 
-.box-2{
+/* conteiner3 */
+.k li{display: inline-block;}
+.box-3{max-width: 1250px;height: 349px;margin-top: 6px;
     }
-    .centr{text-align: center;}
-    .competitors li{display: inline-block;}
-    .title{Font:Roboto;  Size: 40px; line-height: 45px;}
-    .col{color: #6F2DFF;}
+.Comerc{padding-top:31px;padding-left: 106px;}
+.title3{font-weight:700;font-size:40px;line-height:45px ; text-align:center;}
+.CommerceAI li{width:310px;}
+.qualitis{font-size: 19px;font-weight: 700;line-height: 23px;
+        text-align: center;
+    }
+.text{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center; 
+    }
 
-.box-3{height: 349px;
-    left: 7.36%;
-    right: 5.83%;
-    top: 1465px;width: 1250px;}
-.CommerceAI li{display:inline-block; list-style-type: disc;text-align: justify;}
-.qualitis{text-align: center;}
-
+/* footer */
 .footer-box{background: #20003C;height: 156px;
-    left: 0%;
-    right: 0%;
-    top: 1953px;Width: 1440px}
+    max-width: 1440px;
+    }
+.box4{margin-left: 106px ;padding-top: 37px;}
 .ind li{display: inline-block;}
-.link1{color:#FFFFFF;height: 21px;
-    left: 7.36%;
-    right: 50%;
-    top: 2020px;Width:  614px; text-decoration: none;}
+.link1{color:#FFFFFF;font-size: 16px;line-height: 21px;   
+    Width:  614px; text-decoration: none;}
+
+
